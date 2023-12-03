@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -74,25 +74,20 @@ h6 {
   z-index: 996;
   width: 44px;
   height: 44px;
-  border-radius: 50px;
   transition: all 0.4s;
-  border: 2px solid #09b32e;
+  background-color: #09b32e;
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #09b32e;
+  color: #fff;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #09b32e;
-  color: #1a1814;
+  background: #19ee47;
 }
 
-.back-to-top:hover i {
-  color: #444444;
-}
 
 .back-to-top.active {
   visibility: visible;
@@ -347,7 +342,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/banner.jpg") top center;
+  background: url("../img/banner-2.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -612,6 +607,7 @@ section {
 
 .about .content p {
   color:#000;
+  font-weight: 300;
 }
 .about .about-img:hover::before {
   left: 10px;
@@ -625,12 +621,13 @@ section {
 
 .about .content {
   position: relative;
+  font-family: "Poppins", sans-serif;
 }
 
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color:#09b32e;
+  color:#000;
 }
 
 .about .content p:last-child {
@@ -647,17 +644,16 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us .box {
-  padding: 50px 30px;
-  transition: all ease-in-out 0.3s;
-  background: rgb(239, 255, 242);
-  ;
+  background: #09b32e;
+  padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
 .why-us .box span {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #09b32e;
+  color: #fff;
 }
 
 .why-us .box h4 {
@@ -665,27 +661,17 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: #000;
+  color: #fff;
 }
 
 .why-us .box p {
-  color: #aaaaaa;
+  color: #fff;
   font-size: 15px;
   margin: 0;
   padding: 0;
 }
 
-.why-us .box:hover {
-  background: #09b32e;
-  padding: 30px 30px 70px 30px;
-  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
-}
 
-.why-us .box:hover span,
-.why-us .box:hover h4,
-.why-us .box:hover p {
-  color: #fff;
-}
 
 /*--------------------------------------------------------------
 # Menu Section
